@@ -1,2 +1,2 @@
-# ECE411_Team5
+# ECE411 Team 5
 Team 5 Project
