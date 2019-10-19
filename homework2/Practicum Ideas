@@ -5,3 +5,11 @@ The draw pad will use sensors (touch sensors?) that captures some form of contac
 the contact movements and will either display them on a screen or a panel of LEDs will show the display. 
 Using a microcontroller to output the movements to an LED display.
 
+2.) Chronograph -
+The chronograph will measure the time an object travles between two IR gates and calculate velocity.
+Then the machine will display its result on an LED screen. 
+
+3.) USB power-ometer
+This gadget will measure the voltage and amperage that flows between a simple USB port to the other USB port.
+When the device is connected to a power source and the device that is being recharged through an USB port,
+the seven segment display will show the voltage and current values in real time. 
