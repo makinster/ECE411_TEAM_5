@@ -1,0 +1,7 @@
+Practicum Idea 
+
+1.) Draw Pad -
+The draw pad will use sensors (touch sensors?) that captures some form of contact and will record 
+the contact movements and will either display them on a screen or a panel of LEDs will show the display. 
+Using a microcontroller to output the movements to an LED display.
+
