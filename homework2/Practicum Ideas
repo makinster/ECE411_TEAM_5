@@ -9,6 +9,8 @@ Using a microcontroller to output the movements to an LED display.
 The chronograph will measure the time an object travles between two IR gates and calculate velocity.
 Then the machine will display its result on an LED screen. 
 
+Our group decides that the practicum project will be the chronograph. Final Decision. 
+
 3.) USB power-ometer
 This gadget will measure the voltage and amperage that flows between a simple USB port to the other USB port.
 When the device is connected to a power source and the device that is being recharged through an USB port,
