@@ -1,0 +1,34 @@
+//LCD Screen and IR Sensor
+
+#include <LiquidCrystal.h>// include the library code
+/**********************************************************/
+//char array1[]=" Chronograph";  //the string to print on the LCD
+//char array2[]="Practicum!";  //the string to print on the LCD
+
+int tim = 1000;  //the value of delay time
+// initialize the library with the numbers of the interface pins
+
+LiquidCrystal lcd(4, 6, 10, 11, 12, 13);
+/*********************************************************/
+/*********************************************************/
+
+
+int ifRead;
+void setup()
+{  
+  lcd.begin(16, 2);  // set up the LCD's number of columns and rows: 
+  Serial.begin(9600);
+  pinMode(A0,INPUT);
+  }
+/*********************************************************/
+
+
+void loop() 
+{
+   ifRead=analogRead(A0);
+   Serial.println((ifRead));
+   lcd.print(ifRead);  // Print a message to the LCD.
+   delay(tim);
+   lcd.clear(); 
+}
+/************************************************************/
