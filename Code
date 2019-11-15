@@ -13,6 +13,9 @@ LiquidCrystal lcd(4, 6, 10, 11, 12, 13);
 
 int ifRead1 = A0;
 int ifRead2 = A1;
+long start;
+long stop1;
+float calculated;
 
 void setup()
 {  
@@ -23,17 +26,44 @@ void setup()
   pinMode(A1,INPUT);
   }
 /*********************************************************/
+/*
+void loop()
+{
+  ifRead1 = analogRead(A0);
+  ifRead2 = analogRead(A1);
+  lcd.clear();
+  
+  
+  while(analogRead(A0) < 250) 
+  {
+   // ifRead1 = analogRead(A0);
+           
+  }
+  start = micros();
+  lcd.print("Started...");
+  while(analogRead(A1) < 250) 
+  {
+    
+  }
 
+  stop1 = micros();
+  calculated = (5.0/12.0) / (((stop1 - start) / 1000000.00));
+  lcd.clear();
+  lcd.print(calculated);
+  delay(2000);
+
+} 
+
+*/
 void loop() 
 {
    
    lcd.clear();
-   ifRead1=analogRead(A0);
-   Serial.println((ifRead1));
+   ifRead1=analogRead(A0); 
    lcd.print("Sensor 1:       ");
    lcd.setCursor(10,0);
    lcd.print(ifRead1);  // Print a message to the LCD.
-   delay(tim);
+   //delay(tim);
 
    ifRead2=analogRead(A1);
    Serial.println((ifRead2));
