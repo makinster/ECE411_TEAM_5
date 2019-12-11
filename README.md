@@ -7,8 +7,10 @@ https://drive.google.com/drive/u/1/folders/1vWiaBcHWNWfePrjI9KzBYRflg-hPmRDC
 **************************************************************************************
 
    Practicum project - Ballistic Chronograph
+   
    ECE 411
    Fall 2019
+   
    Team 5: Sean Schorzman, Jaeyoon Lee, Jianyu Hao, Kelly Makinster
                                                                                      
    Description: Displays the speed in fps of an object that passes through a
