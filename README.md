@@ -4,7 +4,8 @@ Members: Sean Schorzman, Kelly Makinster, Jaeyoon Lee, Jianyu Hao
 
 https://drive.google.com/drive/u/1/folders/1vWiaBcHWNWfePrjI9KzBYRflg-hPmRDC
 
-/**************************************************************************************
+**************************************************************************************
+
    Practicum project - Ballistic Chronograph
    ECE 411
    Fall 2019
@@ -17,5 +18,6 @@ https://drive.google.com/drive/u/1/folders/1vWiaBcHWNWfePrjI9KzBYRflg-hPmRDC
                 until either sensor 2 detects an object or a timeout occurs.
                 An additional push button input is used to reset IR detector
                 light levels in order to adjust detection sensitivity.
-                                                                                     
- **************************************************************************************/
+                                                                                  
+                                                                                  
+ **************************************************************************************
